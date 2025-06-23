@@ -1,0 +1,8 @@
+we can also apply css to component using css modules
+we create a file and name it <component name>.module.css and then we import this file in the component 
+the import statements look something like following:
+import styles from "<module path>"
+
+and then inside an element use css defined in that file as 
+
+<h1 className={styles.header}>
